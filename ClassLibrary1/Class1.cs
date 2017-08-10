@@ -27,7 +27,7 @@ namespace ClassLibrary1
                 WriteObject(salutation);
             } 
         } 
-    }
+    }  
 
     [Cmdlet(VerbsCommon.Get, "Results")]
     [OutputType(typeof(Results))]
