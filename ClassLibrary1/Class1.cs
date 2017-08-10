@@ -28,7 +28,7 @@ namespace ClassLibrary1
             } 
         } 
     }  
-
+       
     [Cmdlet(VerbsCommon.Get, "Results")]
     [OutputType(typeof(Results))]
     public class GetResults : PSCmdlet
